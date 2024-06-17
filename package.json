@@ -1,23 +1,26 @@
 {
-  "name": "@adambh/vue-fontawesome-autogen",
-  "version": "1.1.7",
+  "name": "@eikon/vue-fontawesome-autogen",
+  "version": "1.1.8",
   "description": "Automates the importing of used fontawesome icons.",
   "main": "index.js",
   "scripts": {
     "gen": "node ./index.js"
   },
-  "author": "GTANAdam",
+  "author": "Ryan Sorensen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "github.com/GTANAdam/vue-fontawesome-autogen"
+    "url": "github.com/ryansorensen/fontawesome-autogen"
   },
-  "homepage": "https://github.com/GTANAdam/vue-fontawesome-autogen",
+  "homepage": "https://github.com/ryansorensen/fontawesome-autogen",
   "keywords": [
     "auto",
     "generate",
     "import",
     "fontawesome",
     "fortawesome"
-  ]
+  ],
+  "publishConfig": {
+    "@eikon:registry" : "https://gitlab.eikongroup.io/api/v4/projects/239/packages/npm/"
+  }
 }

@@ -1,0 +1,5 @@
+ 
+ npm config set @foo:registry gitlab.eikongroup.io/api/v4/projects/239/packages/npm/
+ npm config list
+ npm config set -- '//gitlab.eikongroup.io/api/v4/projects/239/packages/npm/:_authToken' "auKuQjkEq5TyrK6PwstP"
+ npm publish
