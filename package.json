@@ -21,6 +21,6 @@
     "fortawesome"
   ],
   "publishConfig": {
-    "@eikon:registry" : "https://gitlab.eikongroup.io/api/v4/projects/239/packages/npm/"
+    "@eikon:registry" : "https://nexus.eikongroup.io/repository/eikon-npm/"
   }
 }
